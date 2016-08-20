@@ -10,6 +10,7 @@
 - [github](https://github.com/xamarin/xamarin-forms-samples/tree/master/CustomRenderers/HybridWebView)
 
 
+
 ### 1. HybridWebView 作成
 
 - "XmHybrid" PCLプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebView
@@ -30,11 +31,16 @@
 
 index.html
 
+iOS:
+
 - iOS/Assets/Content/index.html にBundleResourceでHTMLを追加
 
-		
+
 		scehme は httpではなく https にすること
 
+Android:
+
+- Droid/Assets/Content/index.html に AndroidAssetでHTMLを追加
 
 ### 4. iOSでのカスタムレンダラ-
 
