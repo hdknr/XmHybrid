@@ -23,6 +23,43 @@ namespace XmHybrid.Droid
 				Control.LoadUrl(string.Format("javascript: {0}", script));
 			}
 		}
+
+		protected override void OnElementChanged(ElementChangedEventArgs<HybridWebView> e)
+		{
+			base.OnElementChanged(e);
+
+			if (Control == null)
+			{
+				// WebKIT の初期化
+				var webView = new Android.Webkit.WebView(Forms.Context);
+				webView.Settings.JavaScriptEnabled = true;
+
+				// ビューコントローラとして登録
+				SetNativeControl(webView);
+			}
+
+			if (e.OldElement != null)
+			{
+				// ブリッジオブジェクトを削除
+				Control.RemoveJavascriptInterface("jsBridge");
+				var hybridWebView = e.OldElement as HybridWebView;
+
+				// Actionをクリア
+				hybridWebView.Cleanup();
+			}
+
+			if (e.NewElement != null)
+			{
+				// ブリッジオブジェクトを介してJavascriptからの呼び出しを受ける
+				Control.AddJavascriptInterface(new JSBridge(this), "jsBridge");
+
+				// HTMLのロード
+				Control.LoadUrl(string.Format("file:///android_asset/Content/{0}", Element.Uri));
+
+				// Javascriptの挿入
+				InjectJS(JavaScriptFunction);
+			}
+		}
 	}
 }
 

@@ -68,3 +68,4 @@ Android:
 #### レンダラーの処理実装
 
 - コールバックされるJavascriptコードをWebKITに動的に注入できるようにする
+- OnElementChanged でカスタムレンダラの処理を実装する
