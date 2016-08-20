@@ -9,7 +9,7 @@
 - [HybridWebView Custom Renderer](https://developer.xamarin.com/samples/xamarin-forms/customrenderers/hybridwebview/)
 - [github](https://github.com/xamarin/xamarin-forms-samples/tree/master/CustomRenderers/HybridWebView)
 
-### HybridWebView 作成
+### 1. HybridWebView 作成
 
 - "XmHybrid" PCLプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebView
 - Xamarin.Forms.View からサブクラス化
@@ -17,3 +17,5 @@
 - UriPropertyでのやり取りをUriで受ける
 - Javascriptの関数の処理をActionとしてRegisterActionで設定可能にする
 - 登録したActionを引数として data 文字列を渡してInvokeAction経由でJavascriptから呼び出す
+
+### 2. HybridWebViewの利用
