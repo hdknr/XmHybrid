@@ -52,5 +52,13 @@ Android:
 
 ### 5. Androidでのカスタムレンダーラー
 
+#### JSBridge
+
+- Javascriptからの呼び出しのブリッジクラス: Droidプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : JSBridge
+
+
+
+#### レンダラー
+
 - "Droid"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
 - HybridWebViewRenderer をカスタムレンダラ化(ExportRenderer, WebKitでビューレンダリング)
