@@ -9,6 +9,7 @@
 - [HybridWebView Custom Renderer](https://developer.xamarin.com/samples/xamarin-forms/customrenderers/hybridwebview/)
 - [github](https://github.com/xamarin/xamarin-forms-samples/tree/master/CustomRenderers/HybridWebView)
 
+
 ### 1. HybridWebView 作成
 
 - "XmHybrid" PCLプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebView
@@ -31,6 +32,9 @@ index.html
 
 - iOS/Assets/Content/index.html にBundleResourceでHTMLを追加
 
+		
+		scehme は httpではなく https にすること
+
 
 ### 4. iOSでのカスタムレンダラ-
 
@@ -38,6 +42,3 @@ index.html
 - HybridWebViewRenderer をカスタムレンダラ化
 - invokeCSharpActionを定義
 - OnElementChanged でカスタムレンダラの処理を実装する
-
-
-#### Snapshotting a view that has not been rendered results in an empty snapshot.
