@@ -8,6 +8,9 @@ namespace XmHybrid
 		{
 			InitializeComponent();
 
+			this.hybridWebView.RegisterAction(
+				data => DisplayAlert(
+					"Alert", "こんにちは:" + data, "OK"));
 		}
 	}
 }
