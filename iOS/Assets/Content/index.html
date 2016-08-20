@@ -1,7 +1,7 @@
 <html>
 
 <body>
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
   <h1>HybridWebView Test</h1>
   <br/> Enter name:
   <input type="text" id="name">
@@ -13,6 +13,7 @@
   <script type="text/javascript">
     $(function() {
       $("button").click(function() {
+      	log(">>>");
         invokeCSCode($('#name').val());
       });
     });
