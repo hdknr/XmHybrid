@@ -14,6 +14,15 @@ namespace XmHybrid.Droid
 		public HybridWebViewRenderer()
 		{
 		}
+
+		const string JavaScriptFunction = "function invokeCSharpAction(data){jsBridge.invokeAction(data);}";
+		void InjectJS(string script)
+		{
+			if (Control != null)
+			{
+				Control.LoadUrl(string.Format("javascript: {0}", script));
+			}
+		}
 	}
 }
 
