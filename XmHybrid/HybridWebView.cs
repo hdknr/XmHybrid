@@ -15,6 +15,12 @@ namespace XmHybrid
    			returnType: typeof(string),
    			declaringType: typeof(HybridWebView),
    			defaultValue: default(string));
+
+		public string Uri
+		{
+			get { return (string)GetValue(UriProperty); }
+			set { SetValue(UriProperty, value); }
+		}
 	}
 }
 
