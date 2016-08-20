@@ -17,6 +17,7 @@
 - UriPropertyでのやり取りをUriで受ける
 - Javascriptの関数の処理をActionとしてRegisterActionで設定可能にする
 - 登録したActionを引数として data 文字列を渡してInvokeAction経由でJavascriptから呼び出す
+- Cleanup でactionをnullにリセット
 
 ### 2. HybridWebViewの利用
 

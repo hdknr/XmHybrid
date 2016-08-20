@@ -36,6 +36,11 @@ namespace XmHybrid
 			}
 			action.Invoke(data);
 		}
+
+		public void Cleanup()
+		{
+			action = null;
+		}
 	}
 }
 
