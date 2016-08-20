@@ -8,7 +8,8 @@ using Xamarin.Forms.Platform.Android;
 
 namespace XmHybrid.Droid
 {
-	public class HybridWebViewRenderer
+	public class HybridWebViewRenderer:
+		 ViewRenderer<XmHybrid.HybridWebView, Android.Webkit.WebView>
 	{
 		public HybridWebViewRenderer()
 		{
