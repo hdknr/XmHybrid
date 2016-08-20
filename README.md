@@ -21,3 +21,4 @@
 ### 2. HybridWebViewの利用
 
 - ContentPage.Content として、 XmHybrid をXAMLに追加
+- Javascriptから呼ばれるメソッドを匿名関数で追加。(ダイアログを出す)
