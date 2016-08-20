@@ -37,3 +37,7 @@ index.html
 - "iOS"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
 - HybridWebViewRenderer をカスタムレンダラ化
 - invokeCSharpActionを定義
+- OnElementChanged でカスタムレンダラの処理を実装する
+
+
+#### Snapshotting a view that has not been rendered results in an empty snapshot.

@@ -5,10 +5,12 @@
 	xmlns:local="clr-namespace:XmHybrid"
 	x:Class="XmHybrid.XmHybridPage">
 
+	<!--
 	<Label
 		Text="Welcome to Xamarin Forms!"
 		VerticalOptions="Center"
 		HorizontalOptions="Center" />
+	-->
 
 	<ContentPage.Content>
         <local:HybridWebView 
