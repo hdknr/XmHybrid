@@ -62,3 +62,4 @@ Android:
 - Javascriptからの呼び出しのブリッジクラス: Droidプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : JSBridge
 - Java.Lang.Objectを継承
 - HybridWebViewRendererに対する[System.WeekReference](https://developer.xamarin.com/api/type/System.WeakReference%3CT%3E/) を作成(GC用)
+- リモートで呼ばれるブリジメソッドInvokeAction(Java)を定義し、この中で実際のレンダラのInvokeAction(C#)をコールする。(Mono.Android.Export.dllが必要)
