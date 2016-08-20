@@ -27,6 +27,15 @@ namespace XmHybrid
 		{
 			action = callback;
 		}
+
+		public void InvokeAction(string data)
+		{
+			if (action == null || data == null)
+			{
+				return;
+			}
+			action.Invoke(data);
+		}
 	}
 }
 
