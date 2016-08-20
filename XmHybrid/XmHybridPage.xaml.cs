@@ -7,6 +7,7 @@ namespace XmHybrid
 		public XmHybridPage()
 		{
 			InitializeComponent();
+
 		}
 	}
 }

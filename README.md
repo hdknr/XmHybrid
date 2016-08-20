@@ -19,3 +19,5 @@
 - 登録したActionを引数として data 文字列を渡してInvokeAction経由でJavascriptから呼び出す
 
 ### 2. HybridWebViewの利用
+
+- ContentPage.Content として、 XmHybrid をXAMLに追加

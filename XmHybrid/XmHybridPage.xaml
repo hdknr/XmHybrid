@@ -9,4 +9,12 @@
 		Text="Welcome to Xamarin Forms!"
 		VerticalOptions="Center"
 		HorizontalOptions="Center" />
+
+	<ContentPage.Content>
+        <local:HybridWebView 
+			x:Name="hybridWebView" 
+			Uri="index.html"
+         	HorizontalOptions="FillAndExpand" 
+			VerticalOptions="FillAndExpand" />
+    </ContentPage.Content>
 </ContentPage>
