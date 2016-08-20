@@ -34,3 +34,4 @@ index.html
 ### 4. iOSでのカスタムレンダラ-
 
 - "iOS"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
+- HybridWebViewRenderer をカスタムレンダラ化
