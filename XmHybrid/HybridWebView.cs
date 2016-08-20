@@ -21,6 +21,12 @@ namespace XmHybrid
 			get { return (string)GetValue(UriProperty); }
 			set { SetValue(UriProperty, value); }
 		}
+
+		Action<string> action;
+		public void RegisterAction(Action<string> callback)
+		{
+			action = callback;
+		}
 	}
 }
 

@@ -15,3 +15,4 @@
 - Xamarin.Forms.View からサブクラス化
 - UriProperty: [BindableProperty](https://developer.xamarin.com/api/type/Xamarin.Forms.BindableProperty/) を追加
 - UriPropertyでのやり取りをUriで受ける
+- Javascriptの関数の処理をActionとしてRegisterActionで設定可能にする
