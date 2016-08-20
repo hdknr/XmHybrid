@@ -11,6 +11,8 @@ namespace XmHybrid.iOS
 		ViewRenderer<XmHybrid.HybridWebView, WebKit.WKWebView>,  WebKit.IWKScriptMessageHandler
 
 	{
+		const string JavaScriptFunction = "function invokeCSharpAction(data){window.webkit.messageHandlers.invokeAction.postMessage(data);}";
+
 		public HybridWebViewRenderer()
 		{
 		}
