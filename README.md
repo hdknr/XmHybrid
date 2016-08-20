@@ -22,3 +22,15 @@
 
 - ContentPage.Content として、 XmHybrid をXAMLに追加
 - Javascriptから呼ばれるメソッドを匿名関数で追加。(ダイアログを出す)
+
+
+### 3. iOS でのカスタムビュー
+
+index.html
+
+- iOS/Assets/Content/index.html にBundleResourceでHTMLを追加
+
+
+### 4. iOSでのカスタムレンダラ-
+
+- "iOS"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
