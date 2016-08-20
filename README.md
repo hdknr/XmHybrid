@@ -52,13 +52,13 @@ Android:
 
 ### 5. Androidでのカスタムレンダーラー
 
-#### JSBridge
-
-- Javascriptからの呼び出しのブリッジクラス: Droidプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : JSBridge
-
-
-
-#### レンダラー
+#### レンダラー用意
 
 - "Droid"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
 - HybridWebViewRenderer をカスタムレンダラ化(ExportRenderer, WebKitでビューレンダリング)
+
+#### JSBridge
+
+- Javascriptからの呼び出しのブリッジクラス: Droidプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : JSBridge
+- Java.Lang.Objectを継承
+- HybridWebViewRendererに対する[System.WeekReference](https://developer.xamarin.com/api/type/System.WeakReference%3CT%3E/) を作成(GC用)
