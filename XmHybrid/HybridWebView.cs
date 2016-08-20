@@ -1,7 +1,10 @@
 ﻿using System;
-namespace XmHybrid
+using Xamarin.Forms;
+
+
+namespace XmHybrid 
 {
-	public class HybridWebView
+	public class HybridWebView : View
 	{
 		public HybridWebView()
 		{
