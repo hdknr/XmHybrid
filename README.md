@@ -13,3 +13,4 @@
 
 - "XmHybrid" PCLプロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebView
 - Xamarin.Forms.View からサブクラス化
+- UriProperty: [BindableProperty](https://developer.xamarin.com/api/type/Xamarin.Forms.BindableProperty/) を追加
