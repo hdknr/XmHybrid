@@ -27,7 +27,7 @@
 - Javascriptから呼ばれるメソッドを匿名関数で追加。(ダイアログを出す)
 
 
-### 3. iOS でのカスタムビュー
+### 3. カスタムビュー
 
 index.html
 
@@ -48,3 +48,8 @@ Android:
 - HybridWebViewRenderer をカスタムレンダラ化
 - invokeCSharpActionを定義
 - OnElementChanged でカスタムレンダラの処理を実装する
+
+
+### 5. Androidでのカスタムレンダーラー
+
+- "Droid"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
