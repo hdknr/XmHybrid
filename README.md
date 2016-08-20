@@ -53,3 +53,4 @@ Android:
 ### 5. Androidでのカスタムレンダーラー
 
 - "Droid"プロジェクト > 追加 > 新しいファイルを追加 > 空のクラス : HybridWebViewRenderer
+- HybridWebViewRenderer をカスタムレンダラ化(ExportRenderer)
